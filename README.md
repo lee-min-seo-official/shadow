@@ -47,6 +47,9 @@ npm install
 
 # run
 node index.js
+
+# run with pm2 for long time
+pm2 start index.js --name shadow
 ```
 ---
 
