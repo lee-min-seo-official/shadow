@@ -43,11 +43,7 @@ git clone https://github.com/lee-min-seo-official/shadow.git
 cd shadow
 
 # install
-npm ci
-
-# copy example config
-cp .env.example .env
-# edit .env to set PREFIX, OWNER_JID, etc.
+npm install
 
 # run
 node index.js
