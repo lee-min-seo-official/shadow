@@ -87,6 +87,7 @@ async function startBot(sessionName = 'bot1') {
     logger: pino({ level: 'silent' }),
     auth: state,
     browser: ['MacOs', 'Safari', '4.0'],
+    generateHighQualityLinkPreview: true,
   });
 
   // persist creds on update
